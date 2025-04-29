@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: localhost
   tasks:
     - name: Check hostname
       ansible.builtin.shell: hostname
