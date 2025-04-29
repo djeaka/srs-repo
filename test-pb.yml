@@ -1,6 +1,6 @@
+---
 - hosts: localhost
   tasks:
-  - name: debug
-    debug:
-      msg: "Playbook from Github"
-    
+    - name: debug
+      debug:
+        msg: Playbook from Github
