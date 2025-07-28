@@ -2,4 +2,4 @@
 - hosts: localhost
   tasks:
     - name: Check hostname
-      ansible.builtin.shell: hostname
+      ansible.builtin.shell: hostnamectl
